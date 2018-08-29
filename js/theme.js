@@ -1,16 +1,4 @@
 
-//  Theme Custom jquery file, 
-
-    // Created on   : 24/09/2017.
-    // Theme Name   : Gullu.
-    // Description  : Gullu - Agency & Startup HTML Template
-    // Version      : 1.0.
-    // Author       : @CreativeGigs.
-    // Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-   
-
-
-
 "use strict";
 
 // placeholder remove
