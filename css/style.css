@@ -1045,7 +1045,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav > li > 
 /*-------------------------- What we do -------------------*/
 .what-we-do {
     text-align: center;
-    padding-bottom: 125px;
+    padding-bottom: 15px;
 }
 
 .what-we-do h3 {
@@ -1165,8 +1165,8 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav > li > 
 }
 
 .more-about-us .main-content .main-wrapper h4:before {
-    content: "\f113";
-    font-family: Flaticon;
+    content: "\f0f9";
+    font-family: font-awesome;
     font-size: 40px;
     position: absolute;
     top: -8px;

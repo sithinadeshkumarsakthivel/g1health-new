@@ -1,8 +1,11 @@
 .custome-home {
     padding-top: 165px;
-    margin-bottom: 100px;
+    /*margin-bottom: 120px;*/
 }
-
+.custome-text {
+    margin-bottom: 15px;
+    text-align: center;
+}
 .custome-home a{
     width: 200px;
     height: 50px;
