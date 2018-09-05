@@ -32,7 +32,7 @@
                 <div class="header-wrapper">
                     <div class="clearfix">
                         <!-- Logo -->
-                        <div class="float-left tran4s"><a href="index.html"><img src="images/logo/logo.png" alt="Logo"></a></div>
+                        <div class="float-left tran4s"><a href="index.php"><img src="images/logo/logo.png" alt="Logo"></a></div>
 
                         <!-- ============================ Theme Menu ========================= -->
                         <nav class="theme-main-menu float-right navbar" id="mega-menu-wrapper">
@@ -48,7 +48,7 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="navbar-collapse-1" style="padding-top: 20px;">
                                 <ul class="nav">
-                                    <li class="menu-list active"><a href="index.html" class="tran3s">Home</a></li>
+                                    <li class="menu-list active"><a href="index.php" class="tran3s">Home</a></li>
                                     <li class="menu-list"><a href="#about" class="tran3s">About</a></li>
                                     <li class="menu-list"><a href="#download" class="tran3s">Download</a></li>
                                     <li class="menu-list"><a href="#service" class="tran3s">Services</a></li>
@@ -64,8 +64,8 @@
                                             <!--</li>-->
                                         <!--</ul>-->
                                     <!--</li>-->
-                                    <li class="menu-list"><a href="contact.html" class="tran3s">Contact Us</a></li>
-                                    <li class="login-button"><a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">Login</a></li>
+                                    <li class="menu-list"><a href="#contact" class="tran3s">Contact Us</a></li>
+                                    <li class="login-button"><a href="#" class="tran3s">Login</a></li>
                                 </ul>
                             </div><!-- /.navbar-collapse -->
                         </nav> <!-- /.theme-main-menu -->
@@ -164,7 +164,7 @@
             <div id="service">
                 <div class="container">
                     <h1 style="margin-top: 120px; text-align: center">Our Services</h1>
-                    <h2 class="custome-text" class="wow fadeInUp animated" data-wow-delay="0.2s">EMERGENCY</h2>
+                    <h2 class="custome-text" class="wow fadeInUp animated" data-wow-delay="0.2s" style="color: rgb(156, 1, 0)">EMERGENCY</h2>
                     <div class="row">
                         <div class="col-lg-6">
                             <img src="images/home/emergency.gif" class="wow fadeInRight animated" data-wow-delay="0.2s">
@@ -184,7 +184,7 @@
                         </div>
                     </div>
 
-                    <h2 class="custome-text" class="wow fadeInUp animated" data-wow-delay="0.2s" style="margin-top: 50px">PLANNED RIDES</h2>
+                    <h2 class="custome-text" class="wow fadeInUp animated" data-wow-delay="0.2s" style="margin-top: 50px;color: #136013">PLANNED RIDES</h2>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="main-content">
@@ -198,7 +198,7 @@
                         </div>
                     </div>
 
-                    <h2 class="custome-text" class="wow fadeInUp animated" data-wow-delay="0.2s" style="margin-top: 50px">VIRTUAL BLOOD BANK</h2>
+                    <h2 class="custome-text" class="wow fadeInUp animated" data-wow-delay="0.2s" style="margin-top: 50px; color: #991116">VIRTUAL BLOOD BANK</h2>
                     <div class="row">
                         <div class="col-lg-6">
                             <img src="images/home/bloodbank.gif" class="wow fadeInRight animated" data-wow-delay="0.2s">
@@ -253,7 +253,7 @@
                     <div class="theme-title">
                         <h6>CARE PARTNERS</h6>
                         <h2>Our Valuable Partners</h2>
-                        <a href="partner.html" class="tran3s">Partner with Us</a>
+                        <a href="#" class="tran3s" data-toggle="modal" data-target=".partnerModel">Partner with Us</a>
                     </div> <!-- /.theme-title -->
                 </div> <!-- /.container -->
 
@@ -263,49 +263,49 @@
                             <div class="item">
                                 <div>
                                     <img src="images/partner/apollo.jpg" alt="">
-                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/1.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/1.jpg" class="tran3s" title="Apollo Hospitals"></a></div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div>
                                     <img src="images/partner/global.jpg" alt="">
-                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/2.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/2.jpg" class="tran3s" title="Global Hospitals India"></a></div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div>
                                     <img src="images/partner/parvathy.jpg" alt="">
-                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/3.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/3.jpg" class="tran3s" title="Parvathy Hospital"></a></div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div>
                                     <img src="images/partner/kamakshi.jpg" alt="">
-                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="Dr. Kamakshi Memorial Hospital"></a></div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div>
                                     <img src="images/partner/flyinng.jpg" alt="">
-                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="Flying Squad Ambulance Service"></a></div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div>
                                     <img src="images/partner/medicity.jpg" alt="">
-                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="Medicity Multispeciality Hospital"></a></div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div>
                                     <img src="images/partner/balaji.jpg" alt="">
-                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="Sri Balaji Multispeciality Hospital"></a></div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div>
                                     <img src="images/partner/lifesaver.jpg" alt="">
-                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="We’ve done lot’s of work, Let’s Check"></a></div>
+                                    <div class="opacity tran4s"><a data-fancybox="project" href="images/portfolio/4.jpg" class="tran3s" title="Life Saver Ambulance Service"></a></div>
                                 </div>
                             </div>
                         </div> <!-- /.portfolio-slider -->
@@ -313,11 +313,153 @@
                 </div> <!-- /.wrapper -->
             </div> <!-- /.our-portfolio -->
 
+            <div class="container" style="text-align: center">
+                <h1>Our Sincere Thanks To</h1>
+                <img src="images/home/msg91Badge.png" alt="" style="margin-bottom: 80px">
+            </div>
+
+            <!--
+			=============================================
+				Contact Us
+			==============================================
+			-->
+            <div class="contact-us" id="contact">
+                <div class="container">
+                    <h1 style="margin-top: 120px; margin-bottom: 50px; text-align: center">Contact Us</h1>
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="contact-us-form">
+                                <form name="sentMessage" id="contactForm" novalidate>
+                                    <div class="row">
+                                        <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Your Name *" id="name" required
+                                                       data-validation-required-message="Please enter your name.">
+                                                <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Your Email *" id="email" required
+                                                       data-validation-required-message="Please enter your email address.">
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                        <div class="form-group">
+                                                <input type="numeric" class="form-control" placeholder="Your Mobile Number *"
+                                                       id="mobile" required
+                                                       data-validation-required-message="Please enter your mobile number.">
+                                                <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="form-group">
+                                <textarea class="form-control" placeholder="Your Message *" id="message" required
+                                          data-validation-required-message="Please enter a message."></textarea>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 text-center">
+                                            <div id="success_message"></div>
+                                            <button type="button" class="p-bg-color hvr-trim-two" onclick="contactus();">SEND MESSAGE</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div> <!-- /.contact-us-form -->
+                        </div> <!-- /.col- -->
+                        <div class="col-lg-2"></div> <!-- /.col- -->
+                    </div> <!-- /.row -->
+                </div> <!-- /.conatiner -->
+
+                <!--Contact Form Validation Markup -->
+                <!-- Contact alert -->
+                <div class="alert-wrapper" id="alert-success">
+                    <div id="success">
+                        <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        <div class="wrapper">
+                            <p>Your message was sent successfully.</p>
+                        </div>
+                    </div>
+                </div> <!-- End of .alert_wrapper -->
+                <div class="alert-wrapper" id="alert-error">
+                    <div id="error">
+                        <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        <div class="wrapper">
+                            <p>Sorry!Something Went Wrong.</p>
+                        </div>
+                    </div>
+                </div> <!-- End of .alert_wrapper -->
+            </div> <!-- /.contact-us -->
+
+
+
+            <!--
+			=============================================
+				Footer
+			==============================================
+			-->
+            <footer class="bg-one">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-logo">
+                                <a href="index.php"><img src="images/logo/logo.png" alt="Logo"></a>
+                                <h5><a href="mailto:support@g1healthapp.com" class="tran3s" target="_top">support@g1healthapp.com</a></h5>
+                                <h6 class="p-color"><?php echo $_SERVER['REMOTE_ADDR'] ?></h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 footer-list">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li><a class="tran3s">Emergency Ambulance Services</a></li>
+                                <li><a class="tran3s">Planned Ambulance Service</a></li>
+                                <li><a class="tran3s">Virtual Blood Bank</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 footer-list">
+                            <h4>Other Services</h4>
+                            <ul>
+                                <li><a class="tran3s">Patient Transport Ambulances</a></li>
+                                <li><a class="tran3s">Inter-State/City Patient Transport</a></li>
+                                <li><a class="tran3s">Inter-State/City Body Transport</a></li>
+                                <li><a class="tran3s">Freezer Box</a></li>
+                                <li><a class="tran3s">Mortuary Van</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 footer-subscribe">
+                            <h4>Follow Us On</h4>
+                            <a href="https://www.facebook.com/G1health/" target="_blank"><img src="images/home/facebook.png"></a>
+                            <p class="float-left">&copy; 2017 <a href="#" class="tran3s p-color">G1 HealthApp</a>.<br>All rights reserved</p>
+                        </div>
+                    </div> <!-- /.row -->
+
+                </div> <!-- /.container -->
+            </footer>
+
+
+
+            <!-- Partner Modal -->
+            <div class="modal fade partnerModel theme-modal-box" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h3>Are you ready to partner with us?</h3>
+                            <form action="#">
+                                <div class="wrapper">
+                                    <input type="text" placeholder="Your Name*">
+                                    <input type="text" placeholder="Organisation Name*">
+                                    <input type="text" placeholder="Email ID*">
+                                    <input type="number" placeholder="Mobile Number*">
+                                    <input type="text" placeholder="City*">
+                                    <button type="submit" class="p-bg-color hvr-trim-two">Send Request</button>
+                                </div>
+                            </form>
+                        </div> <!-- /.modal-body -->
+                    </div> <!-- /.modal-content -->
+                </div> <!-- /.modal-dialog -->
+            </div> <!-- /.signUpModal -->
 
 
 
 
-        <!-- j Query -->
+            <!-- j Query -->
         <script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
         <!-- Bootstrap Select JS -->
         <script type="text/javascript" src="vendor/bootstrap-select/dist/js/bootstrap-select.js"></script>
@@ -350,7 +492,83 @@
         <!-- Theme js -->
         <script type="text/javascript" src="js/theme.js"></script>
             <script>
+                function contactus() {
+                    var name = $('#name').val();
+                    var email = $('#email').val();
+                    var mobile = $('#mobile').val();
+                    var message = $('#message').val();
+
+                    /* Remove error boder by default*/
+                    $('#name').css('border', '1px solid #BBB');
+                    $('#email').css('border', '1px solid #BBB');
+                    $('#mobile').css('border', '1px solid #BBB');
+                    $('#message').css('border', '1px solid #BBB');
+
+                    if (name == '') {
+                        $('#name').val('');
+                        $('#name').css('border', '2px solid #f00');
+                        $('#name').attr('placeholder', 'Please enter your name.');
+                        return false;
+                    }
+                    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                    if (email == '') {
+                        $('#email').val('');
+                        $('#email').css('border', '2px solid #f00');
+                        $('#email').attr('placeholder', 'Please enter your email.');
+                        return false;
+                    } else if (!regex.test(email)) {
+                        $('#email').val('');
+                        $('#email').css('border', '2px solid #f00');
+                        $('#email').attr('placeholder', 'Please enter valid email.');
+                        return false;
+                    }
+                    //var regex = /^([0-9]{10}$/);
+                    if (mobile == '') {
+                        $('#mobile').val('');
+                        $('#mobile').css('border', '2px solid #f00');
+                        $('#mobile').attr('placeholder', 'Please enter your mobile number.');
+                        return false;
+                    } //else if (!regex.test(mobile)) {
+                    //$('#mobile').val('');
+                    //$('#mobile').css('border', '2px solid #f00');
+                    //$('#mobile').attr('placeholder', 'Please enter valid mobile number.');
+                    //return false;
+                    //}
+                    if (message == '') {
+                        $('#message').val('');
+                        $('#message').css('border', '2px solid #f00');
+                        $('#message').attr('placeholder', 'Please enter your message.');
+                        return false;
+                    }
+
+                    if (name != '' && email != '' && mobile != '' && message != '') {
+                        $.ajax({
+                            type: 'POST',
+                            url: "contact.php",
+                            cache: false,
+                            data: {
+                                'name': name,
+                                'email': email,
+                                'mobile': mobile,
+                                'message': message
+                            },
+                            success: function () {
+                                $("#success_message").html('Thank you for contacting us. Our representative will contact you.');
+                                $('#contactForm')[0].reset();
+                                setTimeout(function () {
+                                    $("#success_message").html('');
+                                }, 5000);
+                            }
+                        });
+                    }
+                }
+
                 $( document ).ready(function() {
+                    $(".tran3s").click(function () {
+                        $(this).closest('li').siblings().removeClass("active");
+                        $(this).closest('li').addClass('active');
+
+                    });
 
                     $().vEllipsis({
                         'lines':1,
